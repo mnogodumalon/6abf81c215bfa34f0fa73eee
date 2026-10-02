@@ -1,0 +1,7 @@
+- Kursleiter (kursleiter): nachname[string/text], email[string/email], telefon[string/tel], stilrichtungen[multiplelookup/checkbox], kurzbeschreibung[string/textarea], vorname[string/text]
+- Teilnehmer (teilnehmer): vorname[string/text], nachname[string/text], email[string/email], telefon[string/tel], geburtsdatum[date/date], erfahrung[lookup/radio], gesundheitliche_hinweise[string/textarea]
+- Kurse (kurse): yoga_stil[lookup/select], niveau[lookup/radio], beschreibung[string/textarea], kursleiter[applookup/select], startdatum[date/datetimeminute], dauer_minuten[number], anzahl_termine[number], wochentag[lookup/select], ort[string/text], max_teilnehmer[number], preis[number], kursstatus[lookup/select], kurstitel[string/text]
+  → kursleiter links to app_id 6abf81a487ca6e2d98591819
+- Anmeldungen (anmeldungen): teilnehmer[applookup/select], kurs[applookup/select], anmeldedatum[date/date], anmeldestatus[lookup/radio], zahlungsstatus[lookup/select], bemerkung[string/textarea]
+  → teilnehmer links to app_id 6abf81a93f5063fd61de9826
+  → kurs links to app_id 6abf81aa672363357804ecaa

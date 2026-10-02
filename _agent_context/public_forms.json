@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "kursleiter",
+      "app_id": "6abf81a487ca6e2d98591819",
+      "path": "/rest/apps/6abf81a487ca6e2d98591819/records",
+      "allowed_fields": [
+        "nachname",
+        "email",
+        "telefon",
+        "stilrichtungen",
+        "kurzbeschreibung",
+        "vorname"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kursleiter — Formular"
+    },
+    {
+      "entity": "teilnehmer",
+      "app_id": "6abf81a93f5063fd61de9826",
+      "path": "/rest/apps/6abf81a93f5063fd61de9826/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "email",
+        "telefon",
+        "geburtsdatum",
+        "erfahrung",
+        "gesundheitliche_hinweise"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Teilnehmer — Formular"
+    },
+    {
+      "entity": "kurse",
+      "app_id": "6abf81aa672363357804ecaa",
+      "path": "/rest/apps/6abf81aa672363357804ecaa/records",
+      "allowed_fields": [
+        "yoga_stil",
+        "niveau",
+        "beschreibung",
+        "startdatum",
+        "dauer_minuten",
+        "anzahl_termine",
+        "wochentag",
+        "ort",
+        "max_teilnehmer",
+        "preis",
+        "kursstatus",
+        "kurstitel"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kurse — Formular"
+    },
+    {
+      "entity": "anmeldungen",
+      "app_id": "6abf81aae81d8ad02efba372",
+      "path": "/rest/apps/6abf81aae81d8ad02efba372/records",
+      "allowed_fields": [
+        "anmeldedatum",
+        "anmeldestatus",
+        "zahlungsstatus",
+        "bemerkung"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Anmeldungen — Formular"
+    }
+  ]
+}
